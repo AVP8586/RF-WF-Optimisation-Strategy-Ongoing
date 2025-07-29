@@ -23,28 +23,23 @@
 - [ Overview](#-overview)
 - [ Features](#-features)
 - [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Testing](#-testing)
 - [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+RF-WF-Optimisation-Strategy-Ongoing is an advanced trading algorithm that combines Reinforcement Learning (RL) and Walk Forward Optimisation (WFO) approaches. The strategy is designed to automate and enhance trading decisions by adapting to dynamic market conditions over time, with a particular focus on cryptocurrency markets such as Bitcoin (BTC).
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+1. Integrated RL & WFO: Learns from historical and ongoing market data, adapting policy as new data arrives.
+2. Modular Implementation: Separate modules for RL agent (PPO.py), trading logic (Trading.py), parameter management, and data handling.
+3. Custom Dataset Support: Ready to use with cryptocurrency price data (e.g., BTC_2019_2023_6h.csv).
+4. Flexible Configuration: Easy-to-modify parameters for experimentation and tuning.
+5. Scalable and Extensible: Foundation for adding new RL algorithms, assets, or timeframes.
 
 ---
 
@@ -60,130 +55,12 @@
 ```
 
 
-###  Project Index
-<details open>
-	<summary><b><code>RF-WF-OPTIMISATION-STRATEGY-ONGOING/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/blob/master/Trading.py'>Trading.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/blob/master/PPO.py'>PPO.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/blob/master/parameters.py'>parameters.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
-
----
-##  Getting Started
-
-###  Prerequisites
-
-Before getting started with RF-WF-Optimisation-Strategy-Ongoing, ensure your runtime environment meets the following requirements:
-
-- **Programming Language:** Python
-
-
-###  Installation
-
-Install RF-WF-Optimisation-Strategy-Ongoing using one of the following methods:
-
-**Build from source:**
-
-1. Clone the RF-WF-Optimisation-Strategy-Ongoing repository:
-```sh
-❯ git clone https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing
-```
-
-2. Navigate to the project directory:
-```sh
-❯ cd RF-WF-Optimisation-Strategy-Ongoing
-```
-
-3. Install the project dependencies:
-
-echo 'INSERT-INSTALL-COMMAND-HERE'
-
-
-
-###  Usage
-Run RF-WF-Optimisation-Strategy-Ongoing using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
-
-###  Testing
-Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
-
 ---
 ##  Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
-
-##  Contributing
-
-- **💬 [Join the Discussions](https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/issues)**: Submit bugs found or log feature requests for the `RF-WF-Optimisation-Strategy-Ongoing` project.
-- **💡 [Submit Pull Requests](https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone https://github.com/AVP8586/RF-WF-Optimisation-Strategy-Ongoing
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/AVP8586/RF-WF-Optimisation-Strategy-Ongoing/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=AVP8586/RF-WF-Optimisation-Strategy-Ongoing">
-   </a>
-</p>
-</details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
+- [ ] Extend asset and timeframe support
+- [ ] Integrate additional RL algorithms
+- [ ] Enhance backtesting and walk-forward analysis features
+- [ ] Deployment and live trading integrations
 
 ---
