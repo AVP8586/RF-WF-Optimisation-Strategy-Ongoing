@@ -31,6 +31,11 @@
 
 RF-WF-Optimisation-Strategy-Ongoing is an advanced trading algorithm that combines Reinforcement Learning (RL) and Walk Forward Optimisation (WFO) approaches. The strategy is designed to automate and enhance trading decisions by adapting to dynamic market conditions over time, with a particular focus on cryptocurrency markets such as Bitcoin (BTC).
 
+This RL-based agent was built for Bitcoin from 2019 to 2023. The goal wasn't just to maximize returns, but to see if an agent could learn a risk-managed strategy.
+In the simulation, it achieved a +429% return, which corresponds to a CAGR of about 51%. While this is a high number, it's important to note that it underperformed a simple Buy-and-Hold strategy for Bitcoin (which was over 1000% in the same period). This suggests the agent was successfully trading in a way that controlled risk rather than just chasing momentum.
+The key takeaway was seeing the high risk-adjusted return, with a Sharpe ratio of 3.72. However, I'm fully aware that this is an idealized simulation. It doesn't account for real-world factors like transaction costs or slippage, which would significantly impact the net performance. The project was an incredible learning experience in understanding the deep challenges of building and realistically evaluating a trading strategy.
+
+
 ---
 
 ##  Features
